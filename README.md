@@ -1,10 +1,8 @@
-# ACL2022
-ACL 2022 anonymous 
 # AraT5: Text-to-Text Transformers for Arabic Language Understanding and Generation
 
 <img src="AraT5_logo.jpg" alt="AraT5" width="20%" height="20%" align="right"/>
 
-This is anonymous repository for our ACl 2022 paper **AraT5: Text-to-Text Transformers for Arabic Language Understanding and Generation**. In this is the repository we introduce:
+This is **anonymous repository** for our ACl 2022 paper. In this is the repository we introduce:
 * Introduce **AraT5<sub>MSA</sub>**, **AraT5<sub>Tweet</sub>**, and **AraT5**: three powerful Arabic-specific text-to-text Transformer based models;
 * Introduce **ARGNE**:  A new benchmark for Arabic language generation and evaluation for four Arabic NLP tasks, namely, ```machine  translation```,  ```summarization```,  ```newstitle   generation```   and   ```question   generation```;
 * evaluate  ```AraT5``` models on ```ARGNE``` and compare against available language models.
