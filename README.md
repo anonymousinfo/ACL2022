@@ -4,7 +4,8 @@
 
 This is **anonymous repository** for our ACl 2022 paper. In this is the repository we introduce:
 * Introduce **AraT5<sub>MSA</sub>**, **AraT5<sub>Tweet</sub>**, and **AraT5**: three powerful Arabic-specific text-to-text Transformer based models;
-* Introduce **ARGNE**:  A new benchmark for Arabic language generation and evaluation for four Arabic NLP tasks, namely, ```machine  translation```,  ```summarization```,  ```newstitle   generation```   and   ```question   generation```;
+* Introduce **ARGNE**:  A new benchmark for Arabic language generation and evaluation for Arabic NLP tasks includes  ```19 different datasets ``` with  ```57 test splits ``` and covers tasks:  ```Machine Translation (MT) ```,  ```Code-Switched Translation (CST) ```, Text Summrization (TS) ```,  ```News Title Generation (NGT) ```,  ```Question Generation (QG) ```,  ```TRansliteration (TR) ```, and ****ParaPHrasing (PPH) ```.
+
 * evaluate  ```AraT5``` models on ```ARGNE``` and compare against available language models.
 
 Our models establish new state-of-the-art (SOTA) on  several publicly available datasets.
