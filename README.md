@@ -4,7 +4,7 @@
 
 This is **anonymous repository** for our ACl 2022 paper. In this is the repository we introduce:
 * Introduce **AraT5<sub>MSA</sub>**, **AraT5<sub>Tweet</sub>**, and **AraT5**: three powerful Arabic-specific text-to-text Transformer based models;
-* Introduce **ARGNE**:  A new benchmark for Arabic language generation and evaluation for Arabic NLP tasks includes  ```19 different datasets ``` with  ```57 test splits ``` and covers tasks:  ```Machine Translation (MT) ```,  ```Code-Switched Translation (CST) ```,  ```Text Summrization (TS) ```,  ```News Title Generation (NGT) ```,  ```Question Generation (QG) ```,  ```TRansliteration (TR) ```, and ****ParaPHrasing (PPH) ```.
+* Introduce **ARGNE**:  A new benchmark for Arabic language generation and evaluation for Arabic NLP tasks includes  ```19 different datasets ``` with  ```57 test splits ``` and covers tasks:  ```Machine Translation (MT) ```,  ```Code-Switched Translation (CST) ```,  ```Text Summrization (TS) ```,  ```News Title Generation (NGT) ```,  ```Question Generation (QG) ```,  ```TRansliteration (TR) ```, and  ```ParaPHrasing (PPH) ```.
 
 * evaluate  ```AraT5``` models on ```ARGNE``` and compare against available language models.
 
@@ -25,6 +25,9 @@ The rest of this repository provides more information about our new language mod
   - [2.2 Text Summarization](#22-text-summarization)
   - [2.3 News Title Generation](#23-news-title-generation)
   - [2.4 Question Generation](#24-question-generation)
+  - [2.5 Code-Switched Translation](#25-code-switched-translation)
+  - [2.6 Trnsliteration](#26-transliteration)
+  - [2.7 Paraphsing](#27-paraphrasing)
 - [3. How to use AraT5 model](#3-how-to-use-arat5-model)
 - [4. Ethics](#5-ethics)
 - [5. AraT5 Models Checkpoints](#5-arat5-models-checkpoints)
