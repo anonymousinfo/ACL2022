@@ -25,9 +25,9 @@ The rest of this repository provides more information about our new language mod
   - [2.2 Text Summarization](#22-text-summarization)
   - [2.3 News Title Generation](#23-news-title-generation)
   - [2.4 Question Generation](#24-question-generation)
-  - [2.5 Code-Switched Translation](#25-code-switched-translation)
-  - [2.6 Trnsliteration](#26-transliteration)
-  - [2.7 Paraphsing](#27-paraphrasing)
+  - [2.5 Transliteration](#26-transliteration)
+  - [2.6 Paraphsing](#27-paraphrasing)
+  - [2.7 Code-Switched Translation](#25-code-switched-translation)
 - [3. How to use AraT5 model](#3-how-to-use-arat5-model)
 - [4. Ethics](#5-ethics)
 - [5. AraT5 Models Checkpoints](#5-arat5-models-checkpoints)
@@ -109,16 +109,52 @@ MADAR  [Bouamor et al. (2018)](https://aclanthology.org/L18-1535.pdf) (25 datase
 | RougeL | 71.56 | **74.52**| 72.57 | 73.37|     
 
 
-### 2.3 News Title and Question Generation
+### 2.3 News Title
 
 | **Dataset**  |  **Metric** | **mT5** | **AraT5<sub>Tweet</sub>** | **AraT5<sub>MSA</sub>** | **MSA** | 
 |----------------|:------:|:----------:|:-----------:|:-------:|:------:|
 |  ARGEN<sub>NTG</sub> [Nagoudi et al., 2020](https://aclanthology.org/2020.wanlp-1.7/)| BLEU | 19.49 | 20.00 | **20.61** | 20.51  | 
+
+
+### 2.4 Question Generation
+
+| **Dataset**  |  **Metric** | **mT5** | **AraT5<sub>Tweet</sub>** | **AraT5<sub>MSA</sub>** | **MSA** | 
+|----------------|:------:|:----------:|:-----------:|:-------:|:------:|
 | ARGEN<sub>QG</sub> [Abdul-Mageed et al. (2021)](https://aclanthology.org/2021.acl-long.551.pdf) | BLEU | 15.29 | 12.06 | 14.18 | **16.99**|   
 
 
+### 2.5 Transliteration
+
+| **Dataset**  |  **Metric** | **mT5** | **AraT5<sub>Tweet</sub>** | **AraT5<sub>MSA</sub>** | **MSA** | 
+|----------------|:------:|:----------:|:-----------:|:-------:|:------:|
+| ARGEN<sub>TR</sub> [Shazal et al. (2020)](https://aclanthology.org/2020.wanlp-1.15.pdf) | BLEU | 60.81 | 59.55| **65.88** | 62.51|   
+
+### 2.6 Paraphrasing
+
+| **Dataset**  |  **Metric** | **mT5** | **AraT5<sub>Tweet</sub>** | **AraT5<sub>MSA</sub>** | **MSA** | 
+|----------------|:------:|:----------:|:-----------:|:-------:|:------:|
+| ARGEN<sub>PPH I</sub> [Ceret al. (2017)] (https://arxiv.org/abs/1708.00055) | BLEU | 19.32 | 18.17 | **19.38** | 19.03|   
+| ARGEN<sub>PPH II</sub> [Alian et al. (2019)](https://dl.acm.org/doi/10.1145/3368691.3368708) | BLEU | 19.25 | 17.34 | **19.43** | 18.42|   
+ () and ASEP ()
+
+### 2.7 Code-Switched Translation
+```***Natural***```
+| **Dataset**  |  **Metric** | **mT5** | **AraT5<sub>Tweet</sub>** | **AraT5<sub>MSA</sub>** | **MSA** | 
+|----------------|:------:|:----------:|:-----------:|:-------:|:------:|
+| ALG-FR→FR  | BLEU| 23.83 | **28.19** | 26.27 | 26.17 |
+|JOR-EN→EN  | BLEU| **23.06** | 21.60 | 21.58 | 20.45|
+
+```***Synthetic***```
+| **Dataset**  |  **Metric** | **mT5** | **AraT5<sub>Tweet</sub>** | **AraT5<sub>MSA</sub>** | **MSA** | 
+|----------------|:------:|:----------:|:-----------:|:-------:|:------:|
+| MSA-FR→FR  | BLEU| 12.76 | 10.57 | **13.78** | 13.25|
+| MSA-EN→EN  | BLEU| 11.06 | 8.99 | **11.53** | 11.42|
 
 
+
+  - [2.5 Code-Switched Translation](#25-code-switched-translation)
+  - [2.6 Transliteration](#26-transliteration)
+  - [2.7 Paraphsing](#27-paraphrasing)
 
 
 
