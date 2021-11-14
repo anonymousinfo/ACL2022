@@ -74,7 +74,7 @@ To  evaluate  our  models, we  also introduce  **ARGNE**,   a new benchmark for 
 |  Bible I [Sajjad et al. (2020)](https://aclanthology.org/2020.coling-main.447.pdf)  | Mor |  7.21 | 4.69 | **7.83** | 6.82|   
 |  QAraCy  [Sajjad et al. (2020)](https://aclanthology.org/2020.coling-main.447.pdf)  | BLEU | **11.84**  | 11.11  | 11.42  | 10.57| 
 
-MADAR  [Bouamor et al. (2018)](https://aclanthology.org/L18-1535.pdf) (25 datasets) results are show in Table 6 ([see the paper](https://arxiv.org/abs/2109.12068)) 
+MADAR  [Bouamor et al. (2018)](https://aclanthology.org/L18-1535.pdf) (25 datasets) results are show in Table 6 
  
 
 #### 2.1.2  MSA
