@@ -152,12 +152,6 @@ MADAR  [Bouamor et al. (2018)](https://aclanthology.org/L18-1535.pdf) (25 datase
 
 
 
-  - [2.5 Code-Switched Translation](#25-code-switched-translation)
-  - [2.6 Transliteration](#26-transliteration)
-  - [2.7 Paraphsing](#27-paraphrasing)
-
-
-
 #  3. How to use AraT5 model
 
 Below is an example for fine-tuning **AraT5-base** for News Title Generation on the Aranews dataset 
