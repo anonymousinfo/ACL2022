@@ -135,7 +135,6 @@ MADAR  [Bouamor et al. (2018)](https://aclanthology.org/L18-1535.pdf) (25 datase
 |----------------|:------:|:----------:|:-----------:|:-------:|:------:|
 | ARGEN<sub>PPH I</sub> [Ceret al. (2017)] (https://arxiv.org/abs/1708.00055) | BLEU | 19.32 | 18.17 | **19.38** | 19.03|   
 | ARGEN<sub>PPH II</sub> [Alian et al. (2019)](https://dl.acm.org/doi/10.1145/3368691.3368708) | BLEU | 19.25 | 17.34 | **19.43** | 18.42|   
- () and ASEP ()
 
 ### 2.7 Code-Switched Translation
 ```***Natural***```
@@ -147,8 +146,10 @@ MADAR  [Bouamor et al. (2018)](https://aclanthology.org/L18-1535.pdf) (25 datase
 ```***Synthetic***```
 | **Dataset**  |  **Metric** | **mT5** | **AraT5<sub>Tweet</sub>** | **AraT5<sub>MSA</sub>** | **MSA** | 
 |----------------|:------:|:----------:|:-----------:|:-------:|:------:|
-| MSA-FR→FR  | BLEU| 12.76 | 10.57 | **13.78** | 13.25|
-| MSA-EN→EN  | BLEU| 11.06 | 8.99 | **11.53** | 11.42|
+| FR→FR → FR  | BLEU| 12.76 | 10.57 | **13.78** | 13.25|
+| MSA-EN → EN  | BLEU| 11.06 | 8.99 | **11.53** | 11.42|
+| MSA-FR → MSA  | BLEU| 12.93 | 12.14 | **14.39** | 13.92 |
+| MSA-EN → MSA  | BLEU| 11.82 | 13.43 | 23.89 | **24.37** |
 
 
 
