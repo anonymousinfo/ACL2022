@@ -1,4 +1,4 @@
-# AraT5: Text-to-Text Transformers for Arabic Language Understanding and Generation
+# AraT5: Text-to-Text Transformers for Arabic Language Generation
 
 <img src="AraT5_logo.jpg" alt="AraT5" width="20%" height="20%" align="right"/>
 
